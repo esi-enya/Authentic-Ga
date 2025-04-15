@@ -82,11 +82,11 @@ export function FlashcardImport({ onImport }: { onImport: (data: FlashcardData[]
 
         // Simulated data
         const simulatedData: FlashcardData[] = [
-          { id: 1, front: "akpe", back: "thank you", difficulty: "easy" },
-          { id: 2, front: "abale", back: "hello", difficulty: "easy" },
-          { id: 3, front: "oyiwala dɔnn", back: "good morning", difficulty: "medium" },
-          { id: 4, front: "manyɛ oyiwala", back: "good evening", difficulty: "medium" },
-          { id: 5, front: "wo dzin?", back: "what is your name?", difficulty: "hard" },
+          { id: 1, front: "Ojekoo", back: "thank you", difficulty: "easy" },
+          { id: 2, front: "Hɛloo", back: "hello", difficulty: "easy" },
+          { id: 3, front: "oyiwala dɔnn", back: "thank you", difficulty: "medium" },
+          { id: 4, front: "oshwee", back: "good evening", difficulty: "medium" },
+          { id: 5, front: "Te atsɔɔ bo teŋŋ?", back: "what is your name?", difficulty: "hard" },
         ]
 
         onImport(simulatedData)
